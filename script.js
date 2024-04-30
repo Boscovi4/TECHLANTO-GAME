@@ -56,7 +56,7 @@ function fisherYatesShuffle(array) {
         message = 'All Men Drink';
         break;
       case 'craziest_thing':
-        message = 'Ask the person on your left: "What\'s the craziest thing you\'ve ever done?"';
+        message = 'Ask the person on your left: "What is the craziest thing you have ever done?" If no one has done they same thing as you, THEY ALL DRINK';
         break;
       case 'king_rule':
         message = 'I am the KING - Follow my rule for 2 minutes';
@@ -68,10 +68,10 @@ function fisherYatesShuffle(array) {
         message = 'Choose someone with black/blue/white shirt to do 10 push-ups on your count';
         break;
       case 'portuguese':
-        message = 'Everyone speaks Portuguese for 5 minutes';
+        message = 'Everyone speaks "chosen Language (Can be any language)" for 5 MUNUTES';
         break;
       case 'truth_or_dare':
-        message = 'Truth or dare - Choose 2 people';
+        message = 'Truth or dare - Choose 2 people to do truth or date, Only 1 person will DRINK';
         break;
       default:
         message = 'No action';

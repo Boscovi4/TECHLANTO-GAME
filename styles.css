@@ -15,7 +15,7 @@
   /* Text on glasses */
   .glass::after {
     content: "Drink Me";
-    position: absolute;
+    position: top: 0;
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);

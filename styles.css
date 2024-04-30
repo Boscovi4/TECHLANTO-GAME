@@ -1,0 +1,27 @@
+/* Realistic glass style */
+.glass {
+    width: 120px;
+    height: 200px;
+    background-image: url('drinkme.png'); /* Replace 'glass.png' with your glass image */
+    background-size: cover;
+    border: none;
+    margin: 20px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Text on glasses */
+  .glass::after {
+    content: "Drink Me";
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+  

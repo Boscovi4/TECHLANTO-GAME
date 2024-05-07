@@ -1,6 +1,6 @@
 /* Realistic glass style */
 .glass {
-    width: 120px;
+    width: 200px;
     height: 200px;
     background-image: url('Lantogamenow.png'); /* Replace 'glass.png' with your glass image */
     background-size: cover;
@@ -14,7 +14,7 @@
   
   /* Text on glasses */
   .glass::after {
-    content: "Drink Me";
+    content: "I am Ready";
     position: top: 0;
     bottom: 10px;
     left: 50%;
